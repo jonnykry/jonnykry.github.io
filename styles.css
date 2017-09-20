@@ -1,0 +1,53 @@
+
+body {
+  font-family: 'Space Mono', monospace;
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 5rem;
+}
+
+p {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top, .lists {
+  width: 37rem;
+}
+
+.top h1 {
+  margin: 0;
+}
+
+.top p {
+  padding-top: 0.5rem;
+  opacity: 0.3;
+  font-size: 0.9rem;
+}
+
+.top {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+@media (max-width:499px){
+  .top, .lists {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3.75rem;
+  }
+}
